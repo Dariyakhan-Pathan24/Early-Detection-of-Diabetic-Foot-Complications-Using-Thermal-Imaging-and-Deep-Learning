@@ -1,0 +1,5 @@
+venv\Scripts\activate
+pip install -r requirements.txt
+python train.py
+python evaluate.py
+streamlit run app.py
